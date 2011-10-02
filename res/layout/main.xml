@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent" android:layout_height="match_parent"
+	android:orientation="vertical">
+	<RelativeLayout android:id="@+id/listFooter"
+		 android:layout_alignParentBottom="true"
+		android:layout_height="30px" android:layout_width="match_parent"
+		android:background="#4eb38f">
+		<LinearLayout android:id="@+id/listFooter" android:gravity="center_horizontal"
+			android:orientation="horizontal" android:layout_height="match_parent"
+			android:layout_width="match_parent">
+			<TextView android:text="TextView1" android:id="@+id/textView1"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+			<TextView android:text="TextView2" android:layout_height="wrap_content"
+				android:id="@+id/textView2" android:layout_width="wrap_content"></TextView>
+		</LinearLayout>
+	</RelativeLayout>
+
+	<ListView android:id="@+id/android:list" android:layout_above="@id/listFooter"
+		android:layout_height="wrap_content" android:layout_width="match_parent"
+		android:scrollbars="vertical" android:background="@drawable/jbshape">
+	</ListView>
+
+</RelativeLayout>
