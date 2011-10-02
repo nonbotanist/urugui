@@ -4,15 +4,13 @@
 	android:orientation="vertical">
 	<RelativeLayout android:id="@+id/listFooter"
 		 android:layout_alignParentBottom="true"
-		android:layout_height="30px" android:layout_width="match_parent"
+		android:layout_height="100px" android:layout_width="match_parent"
 		android:background="#4eb38f">
-		<LinearLayout android:id="@+id/listFooter" android:gravity="center_horizontal"
-			android:orientation="horizontal" android:layout_height="match_parent"
-			android:layout_width="match_parent">
-			<TextView android:text="TextView1" android:id="@+id/textView1"
-				android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
-			<TextView android:text="TextView2" android:layout_height="wrap_content"
-				android:id="@+id/textView2" android:layout_width="wrap_content"></TextView>
+		<LinearLayout android:id="@+id/listFooter" android:orientation="horizontal" android:layout_height="match_parent"
+			android:layout_width="match_parent" android:gravity="center_horizontal">
+			<MediaController android:id="@+id/mediaController1" android:layout_width="fill_parent" android:layout_height="fill_parent"></MediaController>
+			<!-- TextView android:text="TextView1" android:id="@+id/textView1"
+				android:layout_width="wrap_content" android:width="100dip" android:layout_height="fill_parent" android:background="@drawable/jbshape"></TextView-->
 		</LinearLayout>
 	</RelativeLayout>
 
